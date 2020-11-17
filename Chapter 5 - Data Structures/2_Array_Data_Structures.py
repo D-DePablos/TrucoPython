@@ -9,7 +9,6 @@
 # %%
 # LIST: mutable dynamic arrays
 # Issues with storage space
-import array
 arr = ["one", "two", "three"]
 del arr[1]
 arr.append(23)
