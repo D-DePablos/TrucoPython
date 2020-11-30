@@ -16,10 +16,12 @@ while q:
 
 # %%
 
-# heapq - List-based binary heaps -> Integration and extraction of smallest element
+# heapq - List-based binary heaps ->
+# Integration and extraction of smallest element
 
 q = []
 
+# Can make tuples with key value pair and extract smallest
 heapq.heappush(q, (2, "code"))
 heapq.heappush(q, (1, "eat"))
 heapq.heappush(q, (3, "sleep"))
